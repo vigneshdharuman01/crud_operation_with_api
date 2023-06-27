@@ -1,0 +1,88 @@
+/* *{
+  background-color: black;
+} */
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background: black;
+  color: white;
+}
+.App h1{
+  /* padding-top: 3rem; */
+  text-align: center;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+.form label{
+  margin-right: .5rem;
+}
+
+/* .tableheader{
+  display: flex;
+  gap:2rem;
+} */
+
+
+
+.headrow{
+  background-color:orange;
+}
+
+.deletebtn{
+  color: white;
+  background: red;
+  border: none;
+  border-radius: .2rem;
+  cursor: pointer;
+  padding: .2rem;
+}
+.updatebtn{
+  color: white;
+  background: rgb(63, 99, 9);
+  border: none;
+  border-radius: .2rem;
+  cursor: pointer;
+  padding: .2rem;
+}
+
+.createbtn{
+  font-size:15px;
+  padding: .2rem;
+  margin-bottom: 1rem;
+
+}
+
+
+
+
+@media only screen and (max-width:620px){
+  .table{
+    width: 500px !important;;
+    color: red;
+  }
+  .tablecontainer{
+    width:400px !important;
+    
+  }
+}
+
+
+@media only screen and (max-width:420px){
+  .tableheader{
+    gap:.1rem;
+  }
+  .tablecontainer{
+    width:300px !important;
+    
+  }
+}
